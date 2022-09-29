@@ -1,12 +1,53 @@
-.ladoEsquerdo, .ladoDireito {
-   display: flex; 
-   
+body {
+background-color: #212529;
+margin: 10vw;
+font-family: Helvetica, sans-serif;
+color: #FFFFFF;
+}
+
+p {
+margin-bottom: 15%;
+}
+
+
+
+.esquerda {
+   background-color: #0089CA;
+   border: 1px solid;
+}
+
+.direita {
+   background-color: transparent;
+   border: 1px solid #FFFFFF;
+}
+
+#direita1{ 
+   color: white;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+div {
+width: 40%;
+height: 50%;
+display: inline-block;
+align-items: center;
+justify-content: center;
+}
+
+img {
+   width: 30vw;
 }
 
 .ladoEsquerdo {
-    
+float: left;
+text-align: right;
+width: 60%;
 }
 
 .ladoDireito {
-
+float: right;
 }
