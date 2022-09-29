@@ -5,15 +5,23 @@ font-family: Helvetica, sans-serif;
 color: #FFFFFF;
 }
 
-p {
-margin-bottom: 15%;
+h1 {
+   font-size: 40px;
 }
 
+h2 {
+   font-size: 30px;
+}
 
+p {
+margin-bottom: 13%;
+font-size: 17px;
+}
 
 .esquerda {
    background-color: #0089CA;
    border: 1px solid;
+   padding-right: 30px;
 }
 
 .direita {
@@ -28,6 +36,7 @@ margin-bottom: 15%;
 a {
    text-decoration: none;
    color: black;
+   font-size: 20px;
 }
 
 div {
